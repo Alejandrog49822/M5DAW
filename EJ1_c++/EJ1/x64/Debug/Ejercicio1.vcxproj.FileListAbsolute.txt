@@ -1,0 +1,3 @@
+C:\Users\alejandrogodcin\OneDrive - Centre d'Estudis Monlau\Desktop\EJ1\EJ1\x64\Debug\Ejercicio1.exe
+D:\EJ1_c++\EJ1\x64\Debug\Ejercicio1.exe
+D:\Practicas\EJ1_c++\EJ1\x64\Debug\Ejercicio1.exe
