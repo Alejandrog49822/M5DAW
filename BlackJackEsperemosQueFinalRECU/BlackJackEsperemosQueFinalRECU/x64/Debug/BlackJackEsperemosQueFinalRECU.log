@@ -1,4 +1,0 @@
-﻿  Source.cpp
-D:\OneDrive - Centre d'Estudis Monlau\Practicas\M5\BlackJackEsperemosQueFinalRECU\BlackJackEsperemosQueFinalRECU\Source.cpp(265,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
-D:\OneDrive - Centre d'Estudis Monlau\Practicas\M5\BlackJackEsperemosQueFinalRECU\BlackJackEsperemosQueFinalRECU\Source.cpp(51): warning C4715: 'llegaA21': no todas las rutas de acceso de control devuelven un valor
-  BlackJackEsperemosQueFinalRECU.vcxproj -> D:\OneDrive - Centre d'Estudis Monlau\Practicas\M5\BlackJackEsperemosQueFinalRECU\x64\Debug\BlackJackEsperemosQueFinalRECU.exe
