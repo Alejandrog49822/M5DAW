@@ -4,7 +4,7 @@
 
 using namespace std;
 
-//Atributos player
+
 string playername;
 int HPplayer = 100;
 int Haduken;
@@ -14,14 +14,14 @@ bool ultimateStatus = true;
 bool playerIsAlive = true;
 
 
-//Enemigo 1
+
 string enemyName1 = "Ryu";
 int HPenemy1 = 100;
 int enemy1damage;
 bool enemy1IsAlive = true;
 
 
-//Enemigo 2
+
 string enemyName2 = "Chun Li";
 int HPenemy2 = 100;
 int enemy2damage;
@@ -43,7 +43,7 @@ void gamestart() {
 }
 
 
-//Chequea si el enemigo 1 esta vivo
+
 bool statusEnemy1() {
 	if (HPenemy1 <= 0) {
 		HPenemy1 = 0;
@@ -56,7 +56,7 @@ bool statusEnemy1() {
 }
 
 
-//Chequea si el enemigo 2 esta vivo
+
 bool statusEnemy2() {
 	if (HPenemy2 <= 0) {
 		HPenemy2 = 0;
@@ -67,7 +67,7 @@ bool statusEnemy2() {
 		return enemy2IsAlive;
 	}
 }
-//Chequea si el jugador esta vivo
+
 bool statusHero() {
 	if (HPplayer <= 0){
 		HPplayer = 0;
@@ -152,10 +152,10 @@ void ataqueEnemigo2AHero() {
 	cout << enemyName2 << " te ha quitado " << enemy2damage << ". Te quedan " << HPplayer << " puntos de vida\n";
 	}
 }
-//Selecciona el enemigo y el ataque
+
 void bucleJuego() {
 	while (playerIsAlive && (enemy1IsAlive || enemy2IsAlive)){
-	cout << "A que enemigo quieres atacar?\n[1] Ryu\n[2] Chun Ly\n";
+	cout << "A que enemigo quieres atacar?\n[1] Ryu\n[2] Chun Li\n";
 	cin >> selectEnemigo;
 	if (selectEnemigo == 1) {
 		seleccionAtaqueEnemy1();
