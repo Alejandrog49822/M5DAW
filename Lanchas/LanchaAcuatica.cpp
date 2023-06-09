@@ -2,14 +2,14 @@
 #include <cstdlib>
 #include <ctime>
 #include "LanchaAcuatica.h"
-//Constructor
+
 LanchaAcuatica::LanchaAcuatica(string pNombre, int pVelocidad, int pDistanciaRecorrida, int pNitroDisponible)  {
     nombre = pNombre;
     velocidad = pVelocidad;
     distanciaRecorrida = pDistanciaRecorrida;
     nitroDisponible = pNitroDisponible;
 }
-//Getters
+
 string LanchaAcuatica::getNombre()  {
     return nombre;
 }
@@ -26,7 +26,7 @@ int LanchaAcuatica::getNitroDisponible() {
     return nitroDisponible;
 }
 
-//Setters
+
 string LanchaAcuatica::setNombre(string pName)  {
 	nombre = pName;
     return nombre;
@@ -47,7 +47,7 @@ int LanchaAcuatica::setNitroDisponible(int pNitroDisponible) {
 	return nitroDisponible;
 }
 
-// Métodos
+
 void LanchaAcuatica::lanzarDado() {
     int puntosDado = rand() % 6 + 1;
     velocidad += puntosDado;
