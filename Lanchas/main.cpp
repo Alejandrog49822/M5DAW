@@ -49,7 +49,7 @@ int main() {
         }
     }
 
-    // Encontrar la lancha ganadora
+    
     int maxDistancia = 0;
     vector<string> ganadores;
 
